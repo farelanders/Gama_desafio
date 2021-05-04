@@ -1,15 +1,14 @@
 # HACKER---DESAFIO-INDIVIDUAL-1
-<h1>Primeira Sprint</h1>
+
+<h1>Primeira Sprinnt</h1>
 
 <p><b>Descrição: </b>Funções relacionadas a organização de estoque e valores</p>
 <b>Duração: 5 dias (10/05/2021 à 14/05/2021)</b>
 
-______________
-
-|      |                                                                                                                                           |                   |                 |                  |      
+|      |                                                                                                                                            |                   |                 |                  |   |   |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------|------------------|---|---|
 | cod  | Tarefa                                                                                                                                                    | Estimativa(tempo) | Início Previsto | Término previsto |   |   |
-| 2.00 | Configurar o Ambiennte                                                                                                                                    | 1:00             | 10/05/2021      | 10/05/2021       |   |   |
+| 2.00 | Configurar o Ambiente                                                                                                                                    | 1:00             | 10/05/2021      | 10/05/2021       |   |   |
 | 2.01 | Quantidade total de itens em estoque  (somatória das quantidades de todos os produtos)                                                                    | 1:00             | 10/05/2021      | 10/05/2021       |   |   |
 | 2.02 | Quantidade total de itens em destaque  (somatória das quantidades dos itens marcados como "emDestaque : sim")                                             | 1:00             | 11/05/2021      | 11/05/2021       |   |   |
 | 2.03 | Quantidade total de itens disponíveis (similar ao anterior)                                                                                               | 1:00             | 11/05/2021      | 11/05/2021       |   |   |
@@ -24,14 +23,13 @@ ______________
 
 
 _________
-
-
-<h1>Segunda Sprinnt</h1>
+_________
+<h1>Segunda Sprint</h1>
 
 <p><b>Descrição: </b>Modelar banco e dados e realizar consultas</p>
 <b>Duração: 5 dias (17/05/2021 à 21/05/2021)</b>
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                     |                 |                  |   |   |
+|      |                                                                                                                                                                                                                                                                                                                                                                                                             |                   |                 |                  |   |   |
 |------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------|------------------|---|---|
 | cod  | Tarefa                                                                                                                                                                                                                                                                                                                                                                                                                    | Estimativa(tempo) | Início Previsto | Término previsto |   |   |
 | 3.00 | Configurar o Ambiennte                                                                                                                                                                                                                                                                                                                                                                                                    | 1:00              | 17/05/2021      | 17/05/2021       |   |   |
@@ -40,5 +38,3 @@ _________
 | 3.03 | Arquivo SQL com as instruções de criação de todas as tabelas                                                                                                                                                                                                                                                                                                                                                              | 2:00              | 19/05/2021      | 19/05/2021       |   |   |
 | 3.04 | Arquivo SQL com os scripts de inserção de dados, respeitando as restrições de chaves estrangeiras                                                                                                                                                                                                                                                                                                                         | 1:00              | 20/05/2021      | 20/05/2021       |   |   |
 | 3.05 | Arquivo SQL contendo pelo menos 5 consultas contemplando: 1 consulta contemplando contagem ou totalização // 1 consulta contemplando a junção entre 2 tabelas // 1 consulta contemplando a junção entre 3 tabelas // 1 consulta contemplando a junção entre 2 tabelas + uma operação de totalização e agrupamento // 1 consulta contemplando a junção entre 3 ou mais tabelas + uma operação de totalização e agrupamento | 3:00              | 21/05/2021      | 21/05/2021       |   |   |
-
-____

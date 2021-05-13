@@ -1,0 +1,24 @@
+{
+  "name": "HACKER---DESAFIO-INDIVIDUAL-1",
+  "version": "1.0.0",
+  "description": "<h1>Primeira Sprinnt</h1>",
+  "main": "function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farelanders/HACKER---DESAFIO-INDIVIDUAL-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farelanders/HACKER---DESAFIO-INDIVIDUAL-1/issues"
+  },
+  "homepage": "https://github.com/farelanders/HACKER---DESAFIO-INDIVIDUAL-1#readme",
+  "dependencies": {
+    "currency.js": "^2.0.3"
+  }
+}

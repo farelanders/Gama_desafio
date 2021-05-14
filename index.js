@@ -14,7 +14,7 @@ function itensDestaque() {
     let itemDestaque = 0
     for (var i = 0; i < listaProdutos.length; i++) {
         if (listaProdutos[i].emDestaque === 'sim') {
-            itemDestaque++
+            itemDestaque = itemDestaque + listaProdutos[i].qtdEstoque
         } else {
         }
     }

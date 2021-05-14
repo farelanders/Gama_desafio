@@ -25,9 +25,8 @@ function itensDisponivel() {
     let itemDisponivel = 0
     for (var i = 0; i < listaProdutos.length; i++) {
         if (listaProdutos[i].disponivel === 'sim') {
-            itemDisponivel++
-        } else {
-        }
+            itemDisponivel = itemDisponivel + listaProdutos[i].qtdEstoque
+        } 
     }
     console.log(`A quantidade de itens disponiveis é de ${itemDisponivel}`)
 }
@@ -42,26 +41,35 @@ function totalInventario() {
 
 function somaDepartamento() {
     for (var cont = 1; cont <= 9; cont++) {
-        let totalInventario = 0
-        let departamento = ''
+        let totalInventario = {
+            id: 0,
+            nome: '',
+            total: 0
+        }
         let filter = listaProdutos.filter(item => item.departamento.idDepto === cont)
         for (var i = 0; i < filter.length; i++) {
-            totalInventario = totalInventario + filter[i].qtdEstoque
-            departamento = filter[i].departamento.nomeDepto
+            totalInventario.total = totalInventario.total + filter[i].qtdEstoque
+            totalInventario.nome = filter[i].departamento.nomeDepto
+            totalInventario.id = filter[i].departamento.idDepto
         }
-        console.log(`O departamento ${departamento} tem um total de ${totalInventario} itens disponiveis`)
+        console.log(totalInventario)
     }
 }
 
 function valorInventarioDepto() {
     for (var cont = 1; cont <= 9; cont++) {
-        let totalInventario = 0
+        let valorInventario = {
+            id: 0,
+            nome: '',
+            inventario: 0
+        }
         let filter = listaProdutos.filter(item => item.departamento.idDepto === cont)
         for (var i = 0; i < filter.length; i++) {
-            totalInventario = totalInventario + filter[i].preco * filter[i].qtdEstoque
+            valorInventario.inventario = valorInventario.inventario + filter[i].preco * filter[i].qtdEstoque
+            valorInventario.id = filter[i].departamento.idDepto
+            valorInventario.nome = filter[i].departamento.nomeDepto
         }
-        console.log(`O departamento ${filter[0].departamento.nomeDepto} um inventario no valor de ${BRL(totalInventario).format()} `)
-        //return { [filter[0].departamento.nomeDepto]: BRL(totalInventario).format() }
+        console.log(valorInventario)
     }
 }
 
@@ -78,15 +86,22 @@ function ticketmedio() {
 
 function ticketMedioDpto() {
     for (var cont = 1; cont <= 9; cont++) {
-        let totalEstoque = 0
-        let valorTotal = 0
+        let departamento = {
+            id: 0,
+            nome: '',
+            ticketMedio: 0
+        }
+        let totEstoque = 0
         let filter = listaProdutos.filter(item => item.departamento.idDepto === cont)
         for (var i = 0; i < filter.length; i++) {
             if (filter[i].qtdEstoque > 0)
-                totalEstoque = totalEstoque + filter[i].qtdEstoque
-            valorTotal = valorTotal + filter[i].preco * filter[i].qtdEstoque
+                totEstoque = totEstoque + filter[i].qtdEstoque
+                departamento.ticketMedio = departamento.ticketMedio + filter[i].preco * filter[i].qtdEstoque
+                departamento.id = filter[i].departamento.idDepto
+                departamento.nome = filter[i].departamento.nomeDepto
         }
-        console.log(`O ticket médio do departamento ${filter[0].departamento.nomeDepto} é de ${BRL(valorTotal / totalEstoque).format()}`)
+        departamento.ticketMedio = departamento.ticketMedio / totEstoque
+        console.log(departamento)
     }
 }
 

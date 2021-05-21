@@ -1,4 +1,3 @@
-<div style="text-align:center"><img src='./imgpaste/gamalogo.png' width='300'></div>
 <b><h1>Desafio Hacker Gama parte 3</b></h1>
 <h2>Relação de arquivos:</h2>
 <p style='font-size:15px'>
@@ -78,6 +77,6 @@ O arquivo consultas.sql contém 5 consultas que fazem parte do exercicio, que s�
                     on pedidos.id = produtospedido.pedidoid
                     group by clientes.nome
 
-    
 </p>
+<div style="text-align:center"><img src='./imgpaste/gamalogo.png' width='300'></div>
 

@@ -6,9 +6,9 @@ estrutura_da_tabela.sql -> Contém todas as instruções para importar a estrutu
 
 conteudo_da_tabela.sql -> Contém todos os dados que foram inseridos manualmente na tabela para teste das querys solicitadas. <br><br>
 
-consultas.sql -> Contém os 5 exercícios que foram pedidos para o teste, que são eles:
+consultas.sql -> Contém as 5 querys que foram pedidos para o teste, que são eles:
 
-    1 consulta contemplando contagem ou totalização<b>
+    1 consulta contemplando contagem ou totalização
 
     1 consulta contemplando a junção entre 2 tabelas
 
@@ -26,17 +26,16 @@ consultas.sql -> Contém os 5 exercícios que foram pedidos para o teste, que s�
 <img src='./imgpaste/2021-05-20-20-46-19.png'>
 2 - Selecione a opção 'Server' e depois 'Data Import'
 <img src='./imgpaste/2021-05-20-20-59-42.png'>
-3 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "estrutura_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei uma tabela teste como esta marcado na figura)
+3 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "estrutura_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei uma tabela teste como está marcado na figura)
 <img src='./imgpaste/2021-05-20-21-07-45.png'>
 4 - Clique em 'Start Import' e pronto, seu esquema de dados já esta com todas as tabelas inseridas nele.
 
-
 <h2>Importando os dados da tabela para teste</h2>
 <p style='font-size:15px'>
-1 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "conteudo_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei uma tabela teste como esta marcado na figura)
+1 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "conteudo_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei uma tabela teste como está marcado na figura)
 <img src='./imgpaste/2021-05-20-21-07-45.png'>
 2 - Clique em 'Start Import' e pronto, suas tabelas já estão com informações preenchidas para teste.
-<img src='./imgpaste/2021-05-20-21-22-09.png'>
+
 
 <h1>Arquivo com as consultas</h1>
 O arquivo consultas.sql contém 5 consultas que fazem parte do exercicio, que são elas:

@@ -78,9 +78,9 @@ O arquivo consultas.sql cont√©m 5 consultas que fazem parte do exercicio, que s√
                     on pedidos.id = produtospedido.pedidoid
                     group by clientes.nome
 
-</p>
+
 <h1>Modelo Entidade Relacionamento</h1>
 <img src='./imgpaste/2021-05-20-22-43-11.png'>
-
+</p>
 
 

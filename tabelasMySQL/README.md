@@ -33,7 +33,7 @@ consultas.sql -> Contém as 5 querys que foram pedidos para o teste, que são el
 <h2>Importando os dados da tabela para teste</h2>
 <p style='font-size:15px'>
 1 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "conteudo_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei uma tabela teste como está marcado na figura)
-<img src='./imgpaste/2021-05-20-21-07-45.png'>
+<img src='./imgpaste/2021-05-20-21-22-09.png'>
 2 - Clique em 'Start Import' e pronto, suas tabelas já estão com informações preenchidas para teste.
 
 

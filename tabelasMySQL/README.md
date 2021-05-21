@@ -21,5 +21,9 @@ consultas.sql -> Contém os 5 exercícios que foram pedidos para o teste, que s�
 <h1>Como importar os dados para o MySQL workbench</h1>
 <h2>Importando a estrutura da tabela</h2>
 
-No MySQL workbench clique na sua base de dados para teste
+1 - No MySQL workbench clique na sua base de dados para teste
 <img src='./imgpaste/2021-05-20-20-46-19.png'>
+2 - Selecione a opção 'Server' e depois 'Data Import'
+<img src='./imgpaste/2021-05-20-20-59-42.png'>
+3 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "estrutura_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei uma tabela teste como esta marcado na figura)
+<img src='./imgpaste/2021-05-20-21-07-45.png'>

@@ -78,5 +78,5 @@ O arquivo consultas.sql cont√©m 5 consultas que fazem parte do exercicio, que s√
                     group by clientes.nome
 
 </p>
-<div style="text-align:center"><img src='./imgpaste/gamalogo.png' width='300'></div>
+<div align=center><img src='./imgpaste/gamalogo.png' width='300'></div>
 

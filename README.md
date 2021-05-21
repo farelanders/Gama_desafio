@@ -1,6 +1,6 @@
 # HACKER---DESAFIO-INDIVIDUAL-1
 
-<h1>Primeira Sprinnt</h1>
+<h1>Primeira Sprint</h1>
 
 <p><b>Descrição: </b>Funções relacionadas a organização de estoque e valores</p>
 <b>Duração: 5 dias (10/05/2021 à 14/05/2021)</b>

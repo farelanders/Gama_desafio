@@ -26,13 +26,13 @@ consultas.sql -> Contém as 5 querys que foram pedidos para o teste, que são el
 <img src='./imgpaste/2021-05-20-20-46-19.png'>
 2 - Selecione a opção 'Server' e depois 'Data Import'
 <img src='./imgpaste/2021-05-20-20-59-42.png'>
-3 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "estrutura_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei uma tabela teste como está marcado na figura)
+3 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "estrutura_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei um Esquema teste como está marcado na figura)
 <img src='./imgpaste/2021-05-20-21-07-45.png'>
 4 - Clique em 'Start Import' e pronto, seu esquema de dados já esta com todas as tabelas inseridas nele.
 
 <h2>Importando os dados da tabela para teste</h2>
 <p style='font-size:15px'>
-1 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "conteudo_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei uma tabela teste como está marcado na figura)
+1 - Selecione a opção 'Import from Self-Contained File', escolha o caminho do arquivo "conteudo_da_tabela.sql" e depois escolha em qual Esquema você quer utilizar a estrutura (eu utilizei um Esquema teste como está marcado na figura)
 <img src='./imgpaste/2021-05-20-21-22-09.png'>
 2 - Clique em 'Start Import' e pronto, suas tabelas já estão com informações preenchidas para teste.
 
